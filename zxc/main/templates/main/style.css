@@ -103,6 +103,170 @@ left: 1px;
 right: 1px;
 }
 
+.offers{
+padding-top: 1200px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 78px;
+text-align: center;
+}
+
+.container-2{
+margin: 0px 100px 0px 90px;
+}
+
+.offers-item{
+padding-top: 20px;
+display: flex;
+align-items: center;
+}
+
+.present{
+
+}
+
+.text-offers{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 49px;
+    margin-right: 50px;
+    margin-left: 50px;
+
+ text-align: left;
+}
+
+.email{
+width: 480px;
+height: 90px;
+
+border: 1px solid #000000;
+border-radius: 18px;
+
+margin-right: 100px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+text-align: left;
+
+}
+
+.submint{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+text-decoration: none;
+color: #FFFFFF;
+
+border: 1px solid #000000;
+background: #42AAFF;
+border-radius: 18px;
+width: 400px;
+height: 70px;
+line-height:70px;
+
+}
+
+.services-text{
+
+padding-top: 50px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 78px;
+text-align: center;
+
+color: #000000;
+}
+
+.service-1{
+display:flex;
+align-items: center;
+}
+
+.service-1-image{
+margin-left: 100px;
+margin-top: 100px;
+}
+
+.service-1-text{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 40px;
+line-height: 59px;
+margin-left: 100px;
+
+border-bottom: 1px solid #0000004D
+}
+
+.service-2-image{
+margin-left: 100px;
+margin-top: 100px;
+}
+
+.service-2-text{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 40px;
+line-height: 59px;
+margin-left: 100px;
+
+border-bottom: 1px solid #0000004D
+}
+
+.service-2{
+display: flex;
+align-items: center;
+}
+
+.service-3-image{
+margin-left: 100px;
+margin-top: 100px;
+}
+
+.service-3-text{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 40px;
+line-height: 59px;
+margin-left: 100px;
+
+border-bottom: 1px solid #0000004D
+}
+
+.service-3{
+display: flex;
+align-items: center;
+}
+
+.service-4-image{
+margin-left: 100px;
+margin-top: 100px;
+}
+
+.service-4-text{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 40px;
+line-height: 59px;
+margin-left: 100px;
+
+border-bottom: 1px solid #0000004D
+}
+
+.service-4{
+display: flex;
+align-items: center;
+}
+
 
 
 
