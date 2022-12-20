@@ -29,7 +29,7 @@ margin=0;
 }
 
 .nav-item:hover{
-color: green;
+color: blue;
 }
 
 .select-item{
@@ -50,7 +50,7 @@ color: rgba(0, 0, 0, 0.35);
 }
 
 .select-item:hover{
-color: green;
+color: blue;
 }
 
 .Select{
@@ -267,7 +267,117 @@ display: flex;
 align-items: center;
 }
 
+.popular-product-text{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 64px;
+line-height: 78px;
+text-align: center;
+padding-top: 150px;
+}
+
+.card-title-1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 44px;
+color: rgba(115, 105, 103, 0.68);
+display: flex;
+justify-content: center;
+}
+
+.card-image-1{
+display: flex;
+justify-content: center;
+}
 
 
 
+.card{
+width: 50%;
+}
 
+.cards-holder{
+display: flex;
+justify-content: space-between;
+}
+
+.product-cards{
+padding-top: 100px;
+}
+
+.card-description-1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 40px;
+line-height: 49px;
+display: flex;
+justify-content: center;
+
+color: #000000;
+}
+
+.cost-1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 59px;
+color: #176DE0;
+
+padding-top: 40px;
+display: flex;
+justify-content: center;
+}
+
+.by-text-1{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+color: #736967;
+margin-left: 20px;
+}
+
+.by-1{
+padding-top: 40px;
+display: flex;
+justify-content: center;
+}
+
+.cost-2{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 59px;
+color: #176DE0;
+
+padding-top: 133px;
+display: flex;
+justify-content: center;
+}
+
+.cost-3{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 62px;
+color: #176DE0;
+
+padding-top: 40px;
+display: flex;
+justify-content: center;
+}
+
+.card-image-2{
+display: flex;
+justify-content: center;
+padding-top: 15px;
+}
