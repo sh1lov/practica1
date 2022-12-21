@@ -1,0 +1,171 @@
+body{
+margin=0;
+}
+
+.container{
+    margin: 0px 60px 0px 400px;
+}
+
+.header-line{
+    padding-top: 32px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-item{
+    color: black;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+
+
+    margin-right: 120px;
+
+    transition: color 0.3s linear;
+
+}
+
+.nav-item-main{
+    color: blue;
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+
+
+    margin-right: 120px;
+
+    transition: color 0.3s linear;
+
+}
+
+.nav-item:hover{
+color: blue;
+}
+
+.select-item{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 49px;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.35);
+    text-decoration: none;
+
+    margin-left: 100px;
+    margin-right: 17px;
+
+        transition: color 0.3s linear;
+}
+
+.select-item:hover{
+color: blue;
+}
+
+.Select{
+padding-top: 10px;
+}
+
+.desk{
+padding-top: 100px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+    margin-right: 50px;
+    margin-left: 50px;
+
+ text-align: left;
+}
+
+.cause-1{
+display:flex;
+align-items: center;
+}
+
+.cause-1-image{
+margin-left: 600px;
+margin-top: 60px;
+}
+
+.cause-text{
+
+padding-top: 100px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 32px;
+
+color: #000000;
+text-align: center;
+
+}
+
+.cause-1-text{
+font-family: 'Montserrat';
+font-style: normal;
+font-size: 40px;
+line-height: 59px;
+margin-left: 100px;
+
+}
+
+.header-text{
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 29px;
+
+color: #176DE0;
+}
+
+.header-down-text{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;}
+
+.container-1{
+margin: 50px 100px 0px 100px;
+align-items: center;
+}
+
+.cause-2-image{
+margin-left: 660px;
+margin-top: 60px;
+}
+
+.cause-3-image{
+margin-left: 615px;
+margin-top: 60px;
+}
+
+.contacts{
+display: flex;
+justify-content: space-between;
+margin: 300px 200px 40px 200px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+
+color: #736967;
+}
