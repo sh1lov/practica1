@@ -1,0 +1,2 @@
+для перехода в директорию сайта - cd zxc
+для запуска сервера - python manage.py runserver
