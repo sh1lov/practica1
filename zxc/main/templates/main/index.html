@@ -28,9 +28,10 @@
     <input class="search" type="search" placeholder=""/>
  <div class="cart">
                 <a href="#">
-                    <img src="{% static 'main/img/cart.png'%}" alt="">
+
                 </a>
-            </div>
+
+ </div>
     <div class="search-glass">
         <img src="{% static 'main/img/search.png'%}" alt="">
     </div>
@@ -38,7 +39,7 @@
 
 <div class="picture">
     <div class="neogen">
-        <img src="{% static 'main/img/picture.png'%}" >
+        <img src="{% static 'main/img/neo.png'%}" >
     </div>
 </div>
 
@@ -110,7 +111,7 @@
 
                 <div class="by-1">
                     <div class="by-img-1">
-                        <a href="@">
+                        <a  class="btn-ens-action" data-rel="7d284a0c304430" href="#">
                              <img src="{% static 'main/img/by-img.png'%}"   alt="">
                         </a>
                     </div>
@@ -139,8 +140,9 @@
 
                 <div class="by-1">
                     <div class="by-img-1">
-                        <a href="@">
+                        <a  class="btn-ens-action" data-rel="7d284a0c304625" href="#">
                              <img src="{% static 'main/img/by-img.png'%}"  alt="">
+
                         </a>
                     </div>
                         <div class="by-text-1">
@@ -168,7 +170,7 @@
 
                 <div class="by-1">
                     <div class="by-img-1">
-                        <a href="#">
+                        <a  class="btn-ens-action" data-rel="7d284a0c304626" href="#">
                              <img src="{% static 'main/img/by-img.png'%}"  alt="">
                         </a>
                     </div>
@@ -182,5 +184,48 @@
     </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script defer src="https://lk.easynetshop.ru/frontend/v5/ens-7d284a0c.js"></script>
+<link href="https://lk.easynetshop.ru/frontend/v5/ens-7d284a0c.css" rel="stylesheet">
+<style>.powered {display:none}</style>
+
+
+<script>
+    document.addEventListener("EasyNetShopLoaded", function(event) {
+      ens_jQuery('#enscart_image_wrapper').html('<img src="{% static 'main/img/cart.png'%}" alt="">');
+    }, false);
+</script>
+
+<style>
+    #enscart_wrapper {
+      text-align: center;
+    }
+
+    #enscart_image_wrapper {
+      background: white;
+
+    }
+    #enscart_image_wrapper img {
+      height: 60%;
+      width: auto;
+      padding-top:12px;
+    }
+</style>
+<script>
+document.addEventListener("EasyNetShopLoaded", function(event) {
+     ens_jQuery(".easynetshop-buy, .btn-ens-action").click(function () {
+       var target = ens_jQuery(this);
+       var pos = target.offset();
+       var cart_pos = ens_jQuery('#enscart_wrapper').offset();
+	   var clone = target.clone()
+			  .css({ position: 'absolute', 'z-index': '2100', top: pos.top, left: pos.left })
+			  .appendTo("body")
+			  .animate({top: cart_pos.top, left: cart_pos.left, opacity: 0}, 900, function() { clone.remove(); });
+       });
+    }, false);
+   document.addEventListener("EasyNetShopModalOpened", function(event) {
+      if ((ens_jQuery(".easynetshop-modal-addtocart").css('display') != 'none'))  hideEasynetshopModals();
+   }, false);
+  </script>
 </body>
 </html>
