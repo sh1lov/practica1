@@ -1,8 +1,10 @@
+{% load static %}
+
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style-about.css">
+    <link rel="stylesheet" href="{% static 'main/css/style-about-us.css' %}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
@@ -17,13 +19,8 @@
                 <a class="nav-item" href="/">Главная</a>
                 <a class="nav-item" href="catalog"> Каталог</a>
                 <a class="nav-item-main" href="#"> О нас</a>
-                <a class="nav-item" href="@"> Войти</a>
-                <a class="select-item" href="@">Москва</a>
-
+                <a class="select-item" href="#">Москва</a>
                 </div>
-            <div class="Select">
-                    <img src="icons/Vector.png" alt="">
-            </div>
         </div>
     </div>
 </div>
@@ -40,7 +37,7 @@
             <br>
         <div class="header-down-text">Вы получаете с товарами из нашего гипермаркета весь<br>необходимый пакет документов.</div>
         </div>
-        <div class="cause-1-image"><img src="icons/cause-1.png" alt=""></div>
+        <div class="cause-1-image"><img src="{% static 'main/img/cause-1.png'%}" alt=""></div>
     </div>
 
     <div class="cause-1">
@@ -49,7 +46,7 @@
             <br>
         <div class="header-down-text">Стоимость оборудования не превышает<br>рекомендуемую розничную цену производителя.</div>
         </div>
-        <div class="cause-2-image"><img src="icons/cause-2.png" alt=""></div>
+        <div class="cause-2-image"><img src="{% static 'main/img/cause-2.png'%}"  alt=""></div>
     </div>
 
     <div class="cause-1">
@@ -58,7 +55,7 @@
             <br>
         <div class="header-down-text">Мы осуществляем быструю, удобную и безопасную<br>поставку всех приобретенных у нас товаров – от<br>расходных материалов до крупногабаритных<br>установок.</div>
         </div>
-        <div class="cause-3-image"><img src="icons/cause-3.png" alt=""></div>
+        <div class="cause-3-image"><img src="{% static 'main/img/cause-3.png'%}"  alt=""></div>
     </div>
 </div>
 

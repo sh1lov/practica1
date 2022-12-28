@@ -115,8 +115,9 @@ top: 134px;
 .neogen{
 position: absolute;
 top: 280px;
-left: 1px;
-right: 1px;
+left: -1px;
+right: -1px;
+text-align: center;
 }
 
 .offers{
@@ -312,7 +313,7 @@ justify-content: center;
 
 
 .card{
-width: 50%;
+width: 33.3333%;
 }
 
 .cards-holder{
@@ -397,3 +398,14 @@ display: flex;
 justify-content: center;
 padding-top: 15px;
 }
+
+
+
+
+
+
+
+
+
+
+
